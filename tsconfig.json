@@ -6,11 +6,12 @@
     "strict": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
+    "allowJs": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "skipLibCheck": false
   },
 
-  "include": ["src"],
+  "include": ["src/**/*.js"],
   "exclude": ["node_modules"]
 }
